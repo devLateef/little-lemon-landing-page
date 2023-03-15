@@ -67,6 +67,22 @@ section p{
 }
 .about_main{
     text-align: center;
+    display: flex;
+    justify-content: left;
+    /* padding: 20px; */
+}
+.about_main div{
+    flex: 1;
+}
+.contact{
+    margin-top: 60px;
+}
+.contact h3{
+    font-size: 50px;
+}
+.contact p{
+    margin-top: 20px;
+    font-size: 30px;
 }
 footer{
     display: flex;
